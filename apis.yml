@@ -39,7 +39,7 @@ apis:
     properties:
       - type: Documentation
         url: https://documenter.getpostman.com/view/3919598/S11PpG4x
-      - type: Getting Started
+      - type: GettingStarted
         url: https://support.jobnimbus.com/how-do-i-create-an-integration-using-jobnimbuss-open-api
       - type: API Key Setup
         url: https://support.jobnimbus.com/how-do-i-create-an-api-key
@@ -51,7 +51,7 @@ common:
     url: https://support.jobnimbus.com
   - type: Pricing
     url: https://www.jobnimbus.com/pricing
-  - type: Sign Up
+  - type: SignUp
     url: https://app.jobnimbus.com/signup
   - type: Integrations
     url: https://support.jobnimbus.com/integrations
