@@ -45,6 +45,10 @@ apis:
         url: https://support.jobnimbus.com/how-do-i-create-an-api-key
 
 common:
+  - type: GitHubOrganization
+    url: https://github.com/JobNimbus
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/jobnimbus
   - type: Website
     url: https://www.jobnimbus.com
   - type: Documentation
