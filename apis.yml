@@ -45,6 +45,8 @@ apis:
         url: https://support.jobnimbus.com/how-do-i-create-an-api-key
 
 common:
+  - type: DomainSecurity
+    url: security/jobnimbus-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/JobNimbus
   - type: LinkedIn
@@ -61,6 +63,8 @@ common:
     url: https://support.jobnimbus.com/integrations
   - type: Support
     url: https://support.jobnimbus.com
+  - url: https://www.jobnimbus.com/blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
