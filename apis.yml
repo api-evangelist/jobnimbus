@@ -46,6 +46,11 @@ apis:
       - CRM
       - Project Management
       - Contractor
+      - Workflow-Automation
+    tags_raw:
+      - CRM
+      - Project Management
+      - Contractor
       - Workflow Automation
     properties:
       - type: Documentation
