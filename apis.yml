@@ -57,12 +57,13 @@ apis:
       - CRM
       - Project Management
       - Contractor
-      - Workflow-Automation
+      - Workflow Automation
     tags_raw:
       - CRM
       - Project Management
       - Contractor
       - Workflow Automation
+      - Workflow-Automation
     properties:
       - type: Documentation
         url: https://documenter.getpostman.com/view/3919598/S11PpG4x
