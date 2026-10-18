@@ -432,5 +432,5 @@
     - connectors/applications/jobnimbus
     vendor_link: https://www.jobnimbus.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
