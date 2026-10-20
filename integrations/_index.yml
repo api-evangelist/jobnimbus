@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/jobnimbus/integrations/jotform/1590030/create-new-jobnimbus-contacts-from-new-jotform-submissions
   template: https://zapier.com/apps/jobnimbus/integrations/jotform/1590030/create-new-jobnimbus-contacts-from-new-jotform-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-create-contacts-in-google-ads-customer-list-from-new-jobnimbus-activities
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/google-ads/integrations/jobnimbus/1509048/create-contacts-in-google-ads-customer-list-from-new-jobnimbus-activities
   template: https://zapier.com/apps/google-ads/integrations/jobnimbus/1509048/create-contacts-in-google-ads-customer-list-from-new-jobnimbus-activities
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-create-contacts-on-jobnimbus-for-new-google-ads-leads
@@ -43,6 +45,7 @@
   evidence: https://zapier.com/apps/google-ads/integrations/jobnimbus/543378/create-contacts-on-jobnimbus-for-new-google-ads-leads
   template: https://zapier.com/apps/google-ads/integrations/jobnimbus/543378/create-contacts-on-jobnimbus-for-new-google-ads-leads
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-create-new-jobnimbus-contacts-from-new-squarespace-forms-form-submissions
@@ -57,6 +60,7 @@
   evidence: https://zapier.com/apps/jobnimbus/integrations/squarespace-forms/1585458/create-new-jobnimbus-contacts-from-new-squarespace-forms-form-submissions
   template: https://zapier.com/apps/jobnimbus/integrations/squarespace-forms/1585458/create-new-jobnimbus-contacts-from-new-squarespace-forms-form-submissions
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-log-new-jobnimbus-contacts-to-a-google-sheet
@@ -71,6 +75,7 @@
   evidence: https://zapier.com/apps/google-sheets/integrations/jobnimbus/20531/log-new-jobnimbus-contacts-to-a-google-sheet
   template: https://zapier.com/apps/google-sheets/integrations/jobnimbus/20531/log-new-jobnimbus-contacts-to-a-google-sheet
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-manage-new-or-updated-jobnimbus-contacts-by-adding-or-updating-subscribers-in-ma
@@ -85,6 +90,7 @@
   evidence: https://zapier.com/apps/jobnimbus/integrations/mailchimp/255617262/manage-new-or-updated-jobnimbus-contacts-by-adding-or-updating-subscribers-in-mailchimp
   template: https://zapier.com/apps/jobnimbus/integrations/mailchimp/255617262/manage-new-or-updated-jobnimbus-contacts-by-adding-or-updating-subscribers-in-mailchimp
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-create-new-jobnimbus-contacts-from-new-contacts-in-hubspot
@@ -99,288 +105,7 @@
   evidence: https://zapier.com/apps/hubspot/integrations/jobnimbus/1571411/create-new-jobnimbus-contacts-from-new-contacts-in-hubspot
   template: https://zapier.com/apps/hubspot/integrations/jobnimbus/1571411/create-new-jobnimbus-contacts-from-new-contacts-in-hubspot
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-leadconnector
-  label: LeadConnector
-  partner_name: LeadConnector
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/leadconnector
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-facebook-lead-ads
-  label: Facebook Lead Ads
-  partner: facebook-lead-ads
-  partner_name: Facebook Lead Ads
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-lead-ads
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/google-forms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-gmail
-  label: Gmail
-  partner: gmail
-  partner_name: Gmail
-  category: Email
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/gmail
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-slack
-  label: Slack
-  partner: slack
-  partner_name: Slack
-  category: Team Chat
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/slack
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-gravity-forms
-  label: Gravity Forms
-  partner: gravity-forms
-  partner_name: Gravity Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/gravity-forms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-roofr
-  label: Roofr
-  partner: roofr
-  partner_name: Roofr
-  category: Sales & CRM
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/roofr
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-facebook-conversions
-  label: Facebook Conversions
-  partner_name: Facebook Conversions
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-conversions
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-quo
-  label: Quo
-  partner: quo
-  partner_name: Quo
-  category: Phone & SMS
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/quo
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-microsoft-outlook
-  label: Microsoft Outlook
-  partner: microsoft-outlook
-  partner_name: Microsoft Outlook
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/microsoft-outlook
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-calendly
-  label: Calendly
-  partner: calendly
-  partner_name: Calendly
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/calendly
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-dropbox
-  label: Dropbox
-  partner: dropbox
-  partner_name: Dropbox
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/dropbox
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-wix
-  label: Wix
-  partner: wix
-  partner_name: Wix
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/wix
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/google-drive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-microsoft-excel
-  label: Microsoft Excel
-  partner_name: Microsoft Excel
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/excel
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-ringcentral
-  label: RingCentral
-  partner: ringcentral
-  partner_name: RingCentral
-  category: Phone & SMS
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/ringcentral
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-wpforms
-  label: WPForms
-  partner_name: WPForms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/wpforms
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-google-calendar
-  label: Google Calendar
-  partner: google-calendar
-  partner_name: Google Calendar
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/google-calendar
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-monday-com
-  label: monday.com
-  partner_name: monday.com
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/monday
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-facebook-lead-ads-for-business-admins
-  label: Facebook Lead Ads (for Business admins)
-  partner_name: Facebook Lead Ads (for Business admins)
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-lead-ads-beta
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-airtable
-  label: Airtable
-  partner: airtable
-  partner_name: Airtable
-  category: Databases
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/airtable
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-webflow
-  label: Webflow
-  partner: webflow
-  partner_name: Webflow
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/webflow
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-callrail
-  label: CallRail
-  partner: callrail
-  partner_name: CallRail
-  category: Call Tracking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/callrail
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: jobnimbus-hover
-  label: Hover
-  partner: hover
-  partner_name: Hover
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/jobnimbus/integrations/hover
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: jobnimbus-zapier
@@ -433,4 +158,313 @@
     vendor_link: https://www.jobnimbus.com/
     builder: Fivetran
   status: not-a-workflow
+  arazzo: null
+- slug: jobnimbus-leadconnector
+  label: LeadConnector
+  partner_name: LeadConnector
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/leadconnector
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-facebook-lead-ads
+  label: Facebook Lead Ads
+  partner: facebook-lead-ads
+  partner_name: Facebook Lead Ads
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-lead-ads
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-gmail
+  label: Gmail
+  partner: gmail
+  partner_name: Gmail
+  category: Email
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/gmail
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-slack
+  label: Slack
+  partner: slack
+  partner_name: Slack
+  category: Team Chat
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/slack
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-gravity-forms
+  label: Gravity Forms
+  partner: gravity-forms
+  partner_name: Gravity Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/gravity-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-roofr
+  label: Roofr
+  partner: roofr
+  partner_name: Roofr
+  category: Sales & CRM
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/roofr
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-facebook-conversions
+  label: Facebook Conversions
+  partner: facebook
+  partner_name: Facebook Conversions
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-conversions
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-wix
+  label: Wix
+  partner: wix
+  partner_name: Wix
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/wix
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-quo
+  label: Quo
+  partner: quo
+  partner_name: Quo
+  category: Phone & SMS
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/quo
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-microsoft-outlook
+  label: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_name: Microsoft Outlook
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/microsoft-outlook
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-calendly
+  label: Calendly
+  partner: calendly
+  partner_name: Calendly
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/calendly
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-dropbox
+  label: Dropbox
+  partner: dropbox
+  partner_name: Dropbox
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/dropbox
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-ringcentral
+  label: RingCentral
+  partner: ringcentral
+  partner_name: RingCentral
+  category: Phone & SMS
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/ringcentral
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-microsoft-excel
+  label: Microsoft Excel
+  partner_name: Microsoft Excel
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/excel
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-wpforms
+  label: WPForms
+  partner_name: WPForms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/wpforms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-google-calendar
+  label: Google Calendar
+  partner: google-calendar
+  partner_name: Google Calendar
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/google-calendar
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-facebook-lead-ads-for-business-admins
+  label: Facebook Lead Ads (for Business admins)
+  partner: facebook-lead-ads
+  partner_name: Facebook Lead Ads (for Business admins)
+  category: Ads & Conversion
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/facebook-lead-ads-beta
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-monday-com
+  label: monday.com
+  partner: monday-com
+  partner_name: monday.com
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/monday
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-airtable
+  label: Airtable
+  partner: airtable
+  partner_name: Airtable
+  category: Databases
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/airtable
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-webflow
+  label: Webflow
+  partner: webflow
+  partner_name: Webflow
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/webflow
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-trello
+  label: Trello
+  partner: trello
+  partner_name: Trello
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/trello
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: jobnimbus-callrail
+  label: CallRail
+  partner: callrail
+  partner_name: CallRail
+  category: Call Tracking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/jobnimbus/integrations/callrail
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
